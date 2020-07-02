@@ -7,7 +7,7 @@ import numpy as np
 
 URL = 'http://www.geocoding.jp/api/'
 
-
+# 参考： https://qiita.com/paulxll/items/7bc4a5b0529a8d784673
 def coordinate(address):
 	"""
 	addressに住所を指定すると緯度経度を返す。
